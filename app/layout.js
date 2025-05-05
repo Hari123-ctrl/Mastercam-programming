@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
   title: "Mastercam Support",
   description: "Expert Mastercam Programming Help",
