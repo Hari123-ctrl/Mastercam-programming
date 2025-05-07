@@ -1,10 +1,8 @@
-<div className="flex items-center justify-center min-h-screen text-center bg-white">
-  <div>
-    {import Image from 'next/image';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-6 text-center">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-white text-center p-6">
       <div className="max-w-xl">
         <Image
           src="/logo.png"
@@ -25,9 +23,5 @@ export default function Home() {
     </main>
   );
 }
-    <h1 className="text-4xl font-bold mb-4">Welcome to Mastercam Programming Support</h1>
-    <p className="mb-4">Expert CNC solutions with custom machining strategies.</p>
-    <button className="bg-blue-500 text-white px-4 py-2 rounded">Contact Me</button>
-  </div>
-</div>
+
 
