@@ -1,13 +1,14 @@
-import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
-  title: "Mastercam Support",
-  description: "Expert Mastercam Programming Help",
+  title: 'HK Mastercam Solutions',
+  description: 'Professional Mastercam Programming Services',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex items-center justify-center min-h-screen bg-gray-100">
+        {children}
+      </body>
     </html>
   );
 }
