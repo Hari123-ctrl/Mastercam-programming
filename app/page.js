@@ -1,4 +1,6 @@
-import Image from 'next/image';
+<div className="flex items-center justify-center min-h-screen text-center bg-white">
+  <div>
+    {import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -23,3 +25,9 @@ export default function Home() {
     </main>
   );
 }
+    <h1 className="text-4xl font-bold mb-4">Welcome to Mastercam Programming Support</h1>
+    <p className="mb-4">Expert CNC solutions with custom machining strategies.</p>
+    <button className="bg-blue-500 text-white px-4 py-2 rounded">Contact Me</button>
+  </div>
+</div>
+
